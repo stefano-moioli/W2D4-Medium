@@ -280,3 +280,20 @@ a{
 .recommendedTopics{
     margin-left: 25px;
 }
+
+.setButtons{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.topicButton{
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+}
+
+.followUser{
+    margin-left: 25px;
+    margin-top: 30px;
+}
