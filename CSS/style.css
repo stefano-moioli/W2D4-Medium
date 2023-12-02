@@ -8,7 +8,7 @@ body{
     height: 60px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
 }
@@ -19,7 +19,6 @@ body{
     width: 170px;
     display: flex;
     align-items: center;
-    margin-left: 150px;
 }
 
 .logoImg{
@@ -28,7 +27,6 @@ body{
 }
 
 .navMenu{
-    margin-right: 150px;
     height: 100%;
     width: 300px;
     display: flex;
@@ -79,11 +77,8 @@ main{
 }
 
 .centralSection{
-    height: 100vh;
     width: 65%;
     border-right: solid 1px lightgray;
-
-
 }
 
 .navigationArticle{
@@ -296,4 +291,44 @@ a{
 .followUser{
     margin-left: 25px;
     margin-top: 30px;
+}
+
+.followUserBlock{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.imgProfileContainer{
+    height: 40px;
+    width: 50px;
+}
+
+.imgProfileContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nameAndDescription h4{
+    margin: 0;
+}
+
+.nameAndDescription p{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.followUserBlock button{
+    width: 90px;
+    height: 30px;
+    border-radius: 40px;
+    border: solid 1px gray;
+    background-color: white;
+}
+
+.recentlySaved{
+    margin-left: 25px;
 }
