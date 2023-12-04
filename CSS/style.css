@@ -201,6 +201,10 @@ main{
     object-fit: cover;
 }
 
+.imgArticleContainer:hover{
+    cursor: pointer;
+}
+
 .textualPartArticle{
     margin-right: 15px;
 }
@@ -208,6 +212,7 @@ main{
 .articleInfo{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .iconButton:hover{
@@ -342,12 +347,33 @@ a{
     background-color: white;
 }
 
+.followUserBlock img:hover,
+.followUserBlock h4:hover{
+    cursor: pointer;
+}
+
 .recentlySaved h4{
     margin-bottom: 10px;
 }
 
+.articleAuthor img:hover{
+    cursor: pointer;
+}
+
+.articleAuthor p:hover{
+    cursor: pointer;
+}
+
+span:hover{
+    cursor: auto;
+}
+
 .articleTitleRight h4{
     margin-top: 10px;
+}
+
+.articleTitleRight h4:hover{
+    cursor: pointer;
 }
 
 .seeAll{
