@@ -30,10 +30,11 @@ body{
 
 .navMenu{
     height: 100%;
-    width: 300px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 8px;
+    padding-left: 30px;
 }
 
 .membershipButton{
@@ -72,8 +73,8 @@ button:hover{
 }
 
 main{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     height: 100%;
 }
