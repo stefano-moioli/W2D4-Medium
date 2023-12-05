@@ -45,7 +45,7 @@ body{
 
 .membershipButton{
     border-radius: 30px;
-    height: 30px;
+    padding: 5px;
     background-color: white;
     border: solid 1px gray;
 }
@@ -237,6 +237,7 @@ h3:hover{
     flex-direction: column;
     order: 1;
     flex: 0 0 35%;
+    flex: 1;
 }
 
 .socialSection{
