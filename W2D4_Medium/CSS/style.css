@@ -185,12 +185,8 @@ main{
     font-size: 10px;
     color: gray;
     margin-top: 0;
+    gap: 10px;
 }
-
-.articleInfoText li{
-    padding-right: 10px
-}
-
 
 .articleBlock{
     display: flex;
